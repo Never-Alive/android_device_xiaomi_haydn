@@ -15,6 +15,10 @@ TARGET_OTA_ASSERT_DEVICE := haydn,haydnin
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := haydn
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_haydn
+TARGET_RECOVERY_DEVICE_MODULES := libinit_haydn
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/haydn_QGKI.config
 
