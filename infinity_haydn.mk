@@ -17,6 +17,7 @@ PRODUCT_MODEL := M2012K11G
 PRODUCT_NAME := infinity_haydn
 
 # Infinty Flags
+INFINITY_BUILD_TYPE := OFFICIAL
 INFINITY_MAINTAINER := Lucifer
 WITH_GAPPS := true
 ROM_INF := true
